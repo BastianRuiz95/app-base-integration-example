@@ -12,7 +12,7 @@ export class AppController {
 
   @Post()
   setHello(): string {
-    const x = 'Hello';
+    const x = 'Hello!!';
     return this.appService.setHello(x);
   }
 }
