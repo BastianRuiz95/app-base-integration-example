@@ -6,7 +6,11 @@ export class AppService {
     return 'Hello World!';
   }
 
-  setHello(): string {
-    return 'OK';
+  setHello(x: string): string {
+    if (typeof x === 'string') {
+      return 'OK';
+    } else {
+      return 'Error';
+    }
   }
 }
