@@ -19,4 +19,9 @@ export class AppController {
   getSaludo(): string {
     return this.appService.getHello2();
   }
+
+  @Get('goodbye')
+  getGoodbye(): string {
+    return this.appService.getGoodbye();
+  }
 }
