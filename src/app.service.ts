@@ -13,4 +13,8 @@ export class AppService {
   getSaludo(): string {
     return 'Hola a todos!';
   }
+
+  getGoodbye(): string {
+    return 'Bye bye!';
+  }
 }
