@@ -5,7 +5,7 @@ export class GreetService {
   getDefaultGreet(): string {
     return 'Hello World!';
   }
-  //comment
+
   getVariantGreet(): string {
     return 'Hello Everyone!';
   }
