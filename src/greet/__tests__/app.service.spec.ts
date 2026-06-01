@@ -17,4 +17,10 @@ describe('AppController', () => {
       expect(service.getDefaultGreet()).toBe('Hello World!');
     });
   });
+
+  describe('#getVariantGreet', () => {
+    it('should return a variant message', () => {
+      expect(service.getVariantGreet()).toBe('Hello Everyone!');
+    });
+  });
 });
